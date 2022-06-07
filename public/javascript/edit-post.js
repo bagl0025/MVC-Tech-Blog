@@ -8,11 +8,12 @@ async function editFormHandler(event) {
   const response = await fetch(`/api/posts/${id}`, {
     method: 'PUT',
     body: JSON.stringify({
-      title
+      title,
+      post_content,
     }),
     headers: {
-      'Content-Type': 'application/json'
-    }
+      'Content-Type': 'application/json',
+    },
   });
 
   if (response.ok) {
@@ -22,4 +23,6 @@ async function editFormHandler(event) {
   }
 }
 
-document.querySelector('.edit-post-form').addEventListener('submit', editFormHandler);
+document
+  .querySelector('.edit-post-form')
+  .addEventListener('submit', editFormHandler);

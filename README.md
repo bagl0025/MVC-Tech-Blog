@@ -46,4 +46,4 @@ https://github.com/bagl0025/MVC-Tech-Blog
 
 ## Deployed app on Heroku
 
-https://radiant-ridge-80383.herokuapp.com/
+https://secure-depths-00417.herokuapp.com/
