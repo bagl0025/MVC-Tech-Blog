@@ -12,58 +12,21 @@ MVC Tech Blog.... This application uses Express.js APIs and Sequelize to interac
 
 # Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contribute](#contribute)
 - [Questions](#questions)
 - [Github Profile](#github)
+- [Deployed App](#deployed-app-on-heroku)
 
-## Installation
+## Usage
 
-- Install node.js
-- download the repo: https://github.com/bagl0025/MVC-Tech-Blog.git
-- The dependencies can be installed by running `npm install`
-- You will need to create a .env file in the root folder and update the MySQL user and password. An example of the .env file is provided in the code block below.
+usage info....
+will be logged out after 2 minutes of inactivity
 
-```
-DB_NAME='ecommerce_db'
-DB_USER='root'
-DB_PASSWORD='<insert password>'
-```
+### MVC Tech Blog screenshot
 
------ UPDATE
-
-- Create database schema using `source db/schema.sql` after starting MySQL using `mysql -u root -p`
-- Populate database with data using `npm run seed`
-- Run the application using `npm start` or `node server`
-
-## Usage ------ UPDATE
-
-There is no front end for this application so you should use Insomnia, Postman, or an API client of your choice to test the routes and functionality. The databse contains the following tables:
-
-```
-+------------------------+
-| Tables_in_ecommerce_db |
-+------------------------+
-| category               |
-| product                |
-| product_tag            |
-| tag                    |
-+------------------------+
-```
-
-Using an API client you can view, create, edit, and delete items from the tables. A video link (below) shows the full functionality using Insomnia. A snapshot of the Insomnia window (below) shows all of the API routes that will be demonstrated in the video.
-
-### E-Commerce API routes in Insomnia
-
-<img src="./assets/ecommerce-screen.png" alt="ecommerce screenshot" width="600"/>
-
-### Link to demo video
-
-This video loads from Google Drive. It can be downloaded from the Github repo's assets folder.
-
-[Demo Video](https://drive.google.com/file/d/168EKwEu2aXdTZIB1WwmV_YXEZqGmeXIF/view?usp=sharing)
+<!-- <img src="./assets/.png" alt="MVC Tech Blog screenshot" width="600"/> -->
 
 ## License
 
@@ -81,6 +44,6 @@ Contact author at bagley@umn.edu for questions or to report issues.
 
 https://github.com/bagl0025/MVC-Tech-Blog
 
-```
+## Deployed app on Heroku
 
-```
+https://radiant-ridge-80383.herokuapp.com/
